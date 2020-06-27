@@ -1,4 +1,8 @@
 <?php
+  /*
+    autor: Hugo Martinez Gonzalez
+    Correo: hugo.mrtz.glez10@gmail.com
+  */
   //Se incluye el archivo para la iteracion con la BD
   include ("conexion.php");
   insertDato ();//Se llama al metodo de insertar los datos.
@@ -26,7 +30,7 @@
         <p><label>Estado: <input type="text" name="txtEstado" value=""></label></p>
 
         <p><input type="submit" name="btnEnviar" value="Enviar"></p>
-        
+
       </form>
       <a href="listar.php">Regresar inicio</a>
     </div>
